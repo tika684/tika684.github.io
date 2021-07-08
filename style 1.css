@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+ table,
+      th,td {
+        padding: 10px;
+        border: 1px solid #00000063;
+        border-collapse: collapse;
+      }
+
+.banner h2{
+	background-color: #ffafafff;
+	color:	#ffffff;
+	z-index: 1;
+	padding: 20px 20px;
+	border: 8px groove 	#ffffff;
+	text-align: center;
+}
+
+th,td {
+  padding: 15px;
+  font-size: 14px;
+}
+
+th {
+	background-color: #f2ffca;
+	color: #ff9cd0;
+	text-shadow: 1px 1px 2px black;
+}
+
+td {
+	background-color: #ffffff
+	color: #ffbaba;
+	text-align: center;
+	padding: 20px;
+}
+
+p {
+	font-size: 16px;
+	text-indent: 60px;
+	font-family: monospace;
+	text-align: justify;
+	padding: 20px;
+	color: black;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+
+.photo {
+	width: 220px;
+}
+
+h1 {
+	font-family: 'Share', Harrington;
+    font-size: 35px;
+    color: #59faffdd0fff;
+	text-align: center;
+	border-radius: 5px;
+    color: #ffffffe5;
+	border: 1px solid white;
+	background-color: #ffafafff;
+	padding: 15px;
+}
+
+h2 {
+	font-family: Comic;
+    font-size: 26px;
+    text-shadow: 1px 2px 5px black;
+    color: white;
+    text-align: center;
+}
+h3 {
+	font-family: Times New Roman;
+    font-size: 26px;
+    text-shadow: 1px 2px 5px white;
+    color: #ffafafff;
+    text-align: center;
+}
+
+body {
+	background-color: #f6ff6b;
+	}
+footer{
+	text-align: center;
+}
+
+nav {
+	display: block;
+	background-color: #ffafafff;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px #000000c2;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+nav a {
+	float: left;
+	color: #f6ff6b;
+	padding: 15px 20px;
+	text-decoration: none;
+	border: 0.5px solid #f6ff6b;
+	border-radius: 2px;
+}
+
+nav a:hover {
+	background-color: #f6ff6b;
+	color: #ffafafff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+button {
+	background-color: #ffafafff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+button a{
+	color: white;
+	text-decoration: none;
+}
+
+button a:hover {
+	color: #63ffff;
+}
+
+.container {
+			max-width: 1200px;
+			margin: auto;
+			background-color: #ffffff
+			overflow: auto;
+}
+
+.gallery {
+			margin: 5px;
+			float: left;
+			width: 390px;
+		}
+		
+.gallery img {
+		width: 100%;
+		height: auto;
+		display: block;
+}
